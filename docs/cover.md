@@ -6,4 +6,4 @@
 * Data structure
 
 [GitHub](https://github.com/CodePoem/VAlgorithm)
-[Guide](/guide)
+[Summary](/summary)
