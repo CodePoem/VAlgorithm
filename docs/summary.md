@@ -1,5 +1,12 @@
 - [Home](/)
 
+- base
+
+  - [排序](/base/sort.md)
+  
+    - [快速排序](/base/quickSort.md)
+    - [堆排序](/base/heapSort.md)
+
 - LeetCode
 
   - [猜数字（简单）](/leetcode/猜数字（简单）.md)
