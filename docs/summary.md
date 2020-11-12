@@ -1,7 +1,11 @@
 - [Home](/)
 
-- base
+- 开篇
 
+  - [数据结构和算法](/opening/dataStructureAndAlgorithm.md)
+
+- base
+  
   - [排序](/base/sort.md)
   
     - [快速排序](/base/quickSort.md)
