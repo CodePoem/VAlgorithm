@@ -1,4 +1,4 @@
-package VAlgorithm.docs.base;
+package VAlgorithm.docs.base.sort;
 
 import java.util.Arrays;
 

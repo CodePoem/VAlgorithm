@@ -1,4 +1,4 @@
-package VAlgorithm.docs.base;
+package VAlgorithm.docs.base.search;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
