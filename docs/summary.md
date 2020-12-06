@@ -21,4 +21,6 @@
 
     - [二叉树](/base/tree/BinaryTree.md)
 
+  - [并查集](/base/unionfind/unionfind.md)
+
 - CodingInterviews
