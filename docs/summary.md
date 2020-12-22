@@ -7,15 +7,16 @@
 - base
 
   - [复杂度](/base/complexity/complexity.md)
-  
+
   - [排序](/base/sort/sort.md)
-  
+
     - [快速排序](/base/sort/quickSort.md)
     - [堆排序](/base/sort/heapSort.md)
 
   - 搜索
 
-    - [二分搜索](/base/search/BinarySearch.md)
+    - [二分搜索](/base/search/binarySearch.md)
+    - [回溯搜索](/base/search/backtrackSearch.md)
 
   - 树
 
