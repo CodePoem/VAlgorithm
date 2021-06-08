@@ -8,6 +8,11 @@
 
   - [复杂度](/base/complexity/complexity.md)
 
+  - 数据结构
+
+    - [数组](base/dataStructure/array.md)
+    - [链表](base/dataStructure/list.md)
+
   - [排序](/base/sort/sort.md)
 
     - [快速排序](/base/sort/quickSort.md)

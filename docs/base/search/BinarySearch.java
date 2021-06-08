@@ -5,7 +5,7 @@ public class BinarySearch {
         int left = 0;
         int right = arr.length - 1;
         int mid = 0;
-        while(left <= right) {
+        while (left <= right) {
             mid = left + ((right - left) >> 1);
             if (arr[mid] < target) {
                 left = mid + 1;
@@ -22,7 +22,7 @@ public class BinarySearch {
         int left = 0;
         int right = arr.length - 1;
         int mid = 0;
-        while(left <= right) {
+        while (left <= right) {
             mid = left + ((right - left) >> 1);
             if (arr[mid] < target) {
                 left = mid + 1;
@@ -43,7 +43,7 @@ public class BinarySearch {
         int left = 0;
         int right = arr.length - 1;
         int mid = 0;
-        while(left <= right) {
+        while (left <= right) {
             mid = left + ((right - left) >> 1);
             if (arr[mid] < target) {
                 left = mid + 1;
