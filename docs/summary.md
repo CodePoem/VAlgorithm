@@ -12,6 +12,7 @@
 
     - [数组](base/dataStructure/array.md)
     - [链表](base/dataStructure/list.md)
+    - [栈](base/dataStructure/stack.md)
 
   - [排序](/base/sort/sort.md)
 

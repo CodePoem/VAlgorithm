@@ -35,7 +35,66 @@ struct Node{
 
 ### 单链表反转
 
-LeetCode 206
+[LeetCode 206](https://leetcode-cn.com/problems/reverse-linked-list/)
+
+<!-- tabs:start -->
+
+#### **C++**
+
+```cpp
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
+ListNode* reverseList(ListNode* head) {
+    ListNode* cur = head;
+    ListNode* pre = NULL;
+    ListNode* next = NULL;
+    while(cur != NULL) {
+        next = cur->next;
+        cur->next = pre;
+        pre = cur;
+        cur = next;
+    }
+    return pre;
+}
+```
+
+#### **Kotlin**
+
+```kotlin
+/**
+ * Example:
+ * var li = ListNode(5)
+ * var v = li.`val`
+ * Definition for singly-linked list.
+ * class ListNode(var `val`: Int) {
+ *     var next: ListNode? = null
+ * }
+ */
+
+fun reverseList(head: ListNode?): ListNode? {
+    var cur: ListNode? = head
+    var pre: ListNode? = null
+    var next: ListNode? = null
+    while(cur != null) {
+        next = cur.next
+        cur.next = pre
+        pre = cur
+        cur = next
+    }
+    return pre
+}
+```
+
+<!-- tabs:end -->
 
 ### 链表中环的检测
 
